@@ -1,0 +1,42 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+.env
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de Configuração de IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Artefatos de Teste
+.pytest_cache/
+.coverage
+htmlcov/
+pytestdebug.log
+
+# Pacotes e Distribuição Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# Notebooks Jupyter
+.ipynb_checkpoints
+
+# Dependências instaladas localmente (se não usar venv)
+/node_modules/
